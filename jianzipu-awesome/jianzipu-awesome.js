@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var jzpClassesKeep = document.getElementsByClassName("![[jzp]]")
 	if (jzpClassesKeep.length > 0 ){
 		for (var i=0;i<jzpClassesKeep.length;i++) {
-			jzpClassesKeep[i].innerHTML = jzpClasses[i].getInnerHTML().split('[[').join('[[<span class="jzp">').split(']]').join('</span>]]')
+			jzpClassesKeep[i].innerHTML = jzpClassesKeep[i].getInnerHTML().split('[[').join('[[<span class="jzp">').split(']]').join('</span>]]')
 		}
 	}
 });
