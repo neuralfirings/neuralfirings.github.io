@@ -4,4 +4,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	for (var i=0;i<jzpClasses.length;i++) {
 		jzpClasses[i].innerHTML = jzpClasses[i].getInnerHTML().split('[[').join('<span class="jzp">').split(']]').join('</span>')
 	}
+	var jzpClassesKeep = document.getElementsByClassName("![[jzp]]")
+	for (var i=0;i<jzpClassesKeep.length;i++) {
+		jzpClassesKeep[i].innerHTML = jzpClasses[i].getInnerHTML().split('[[').join('[[<span class="jzp">').split(']]').join('</span>]]')
+	}
 });
