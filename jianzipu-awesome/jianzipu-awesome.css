@@ -207,9 +207,23 @@
 
 /* the characters  */
 
-.jz-j:before {
-	content: "j"
-}
+.jz-n:before, .jz-bo:before { content: "n" }
+.jz-j:before, .jz-mo:before { content: "j" }
+.jz-k:before, .jz-gou:before { content: "k" }
+.jz-l:before, .jz-da:before { content: "l" }
+.jz-h:before, .jz-tuo:before { content: "h" }
+.jz-u:before, .jz-tiao:before { content: "u" }
+.jz-i:before, .jz-ti:before { content: "i" }
+.jz-o:before, .jz-zhai:before { content: "o" }
+.jz-s:before, .jz-ming:before { content: "s" }
+.jz-d:before, .jz-zhong:before { content: "d" }
+.jz-f:before, .jz-shi:before { content: "f" }
+.jz-v:before, .jz-da:before { content: "v" }
+.jz-x:before, .jz-gui:before { content: "x" }
+.jz-by:before, .jz-cuo:before { content: "by" }
+.jz-yb:before { content: "yb" }
+.jz-b8:before, .jz-dacuo:before { content: "b8" }
+.jz-8b:before{ content: "8b" }
 
 /* endy thing */
 
