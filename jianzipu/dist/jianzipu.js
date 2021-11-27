@@ -432,8 +432,6 @@ function paragraphToCharacters(para) {
 			words[i] = translation == '' ? words[i] : translation + ' '
 		}
 		lines[j] = words.join('')
-		if (lines[j][lines[j].length-1] != ' ')
-			lines[j] += ' '
 	}
 	return lines.join('\n')
 }
