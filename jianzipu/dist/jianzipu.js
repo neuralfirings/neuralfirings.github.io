@@ -419,6 +419,8 @@ function paragraphToCharacters(para) {
 	var lines = para.split('\n')
 	for (var j=0;j<lines.length; j++) {
 		var words = lines[j].split(' ')
+		if (words[words.length-1] != ' ')
+			words.push(' ')
 		for (var i=0;i<words.length;i++) {
 			var cuo1, cuo2, translation
 			if (false && words[i].split('H').length > 1) {
