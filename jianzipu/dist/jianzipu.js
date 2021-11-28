@@ -77,270 +77,273 @@ const charMap = {
 		{ "key": "8", "filename": "8_ba_s", "unicode": 58062, "width": 0 },
 		{ "key": "9", "filename": "9_jiu_s", "unicode": 58063, "width": 0 },
 		{ "key": "10", "filename": "10_shi_s", "unicode": 58064, "width": 0 },
+		{ "key": "11", "filename": "11_s", "unicode": 58065, "width": 0 },
+		{ "key": "12", "filename": "12_s", "unicode": 58066, "width": 0 },
+		{ "key": "13", "filename": "13_s", "unicode": 58067, "width": 0 },
 	]},
 	"huiHalfTop": { "x": 500, "y": 100, "w": 400, "h": 150, "components": [
-		{ "key": "1", "filename": "1_yi_s", "unicode": 58065, "width": 0 },
-		{ "key": "2", "filename": "2_er_s", "unicode": 58066, "width": 0 },
-		{ "key": "3", "filename": "3_san_s", "unicode": 58067, "width": 0 },
-		{ "key": "4", "filename": "4_si_s", "unicode": 58068, "width": 0 },
-		{ "key": "5", "filename": "5_wu_s", "unicode": 58069, "width": 0 },
-		{ "key": "6", "filename": "6_liu_s", "unicode": 58070, "width": 0 },
-		{ "key": "7", "filename": "7_qi_s", "unicode": 58071, "width": 0 },
-		{ "key": "8", "filename": "8_ba_s", "unicode": 58072, "width": 0 },
-		{ "key": "9", "filename": "9_jiu_s", "unicode": 58073, "width": 0 },
-		{ "key": "10", "filename": "10_shi_s", "unicode": 58074, "width": 0 },
-		{ "key": "11", "filename": "11_s", "unicode": 58075, "width": 0 },
-		{ "key": "12", "filename": "12_s", "unicode": 58076, "width": 0 },
-		{ "key": "13", "filename": "13_s", "unicode": 58077, "width": 0 },
+		{ "key": "1", "filename": "1_yi_s", "unicode": 58068, "width": 0 },
+		{ "key": "2", "filename": "2_er_s", "unicode": 58069, "width": 0 },
+		{ "key": "3", "filename": "3_san_s", "unicode": 58070, "width": 0 },
+		{ "key": "4", "filename": "4_si_s", "unicode": 58071, "width": 0 },
+		{ "key": "5", "filename": "5_wu_s", "unicode": 58072, "width": 0 },
+		{ "key": "6", "filename": "6_liu_s", "unicode": 58073, "width": 0 },
+		{ "key": "7", "filename": "7_qi_s", "unicode": 58074, "width": 0 },
+		{ "key": "8", "filename": "8_ba_s", "unicode": 58075, "width": 0 },
+		{ "key": "9", "filename": "9_jiu_s", "unicode": 58076, "width": 0 },
+		{ "key": "10", "filename": "10_shi_s", "unicode": 58077, "width": 0 },
+		{ "key": "11", "filename": "11_s", "unicode": 58078, "width": 0 },
+		{ "key": "12", "filename": "12_s", "unicode": 58079, "width": 0 },
+		{ "key": "13", "filename": "13_s", "unicode": 58080, "width": 0 },
 	]},
 	"huiHalfBottom": { "x": 500, "y": 255, "w": 400, "h": 150, "components": [
-		{ "key": "1", "filename": "1_yi_s", "unicode": 58078, "width": 0 },
-		{ "key": "2", "filename": "2_er_s", "unicode": 58079, "width": 0 },
-		{ "key": "3", "filename": "3_san_s", "unicode": 58080, "width": 0 },
-		{ "key": "4", "filename": "4_si_s", "unicode": 58081, "width": 0 },
-		{ "key": "5", "filename": "5_wu_s", "unicode": 58082, "width": 0 },
-		{ "key": "6", "filename": "6_liu_s", "unicode": 58083, "width": 0 },
-		{ "key": "7", "filename": "7_qi_s", "unicode": 58084, "width": 0 },
-		{ "key": "8", "filename": "8_ba_s", "unicode": 58085, "width": 0 },
-		{ "key": "9", "filename": "9_jiu_s", "unicode": 58086, "width": 0 }
+		{ "key": "1", "filename": "1_yi_s", "unicode": 58081, "width": 0 },
+		{ "key": "2", "filename": "2_er_s", "unicode": 58082, "width": 0 },
+		{ "key": "3", "filename": "3_san_s", "unicode": 58083, "width": 0 },
+		{ "key": "4", "filename": "4_si_s", "unicode": 58084, "width": 0 },
+		{ "key": "5", "filename": "5_wu_s", "unicode": 58085, "width": 0 },
+		{ "key": "6", "filename": "6_liu_s", "unicode": 58086, "width": 0 },
+		{ "key": "7", "filename": "7_qi_s", "unicode": 58087, "width": 0 },
+		{ "key": "8", "filename": "8_ba_s", "unicode": 58088, "width": 0 },
+		{ "key": "9", "filename": "9_jiu_s", "unicode": 58089, "width": 0 }
 	]},
 	"rhHalf": { "x": 100, "y": 431, "w": 800, "h": 469, "components": [
-		{ "key": "n", "filename": "n_bo_m", "unicode": 58087, "width": 0 },
-		{ "key": "h", "filename": "h_tuo_m", "unicode": 58088, "width": 0 },
-		{ "key": "u", "filename": "u_tiao_m", "unicode": 58089, "width": 0 },
-		{ "key": "k", "filename": "k_gou_m", "unicode": 58090, "width": 0 },
-		{ "key": "i", "filename": "i_ti_m", "unicode": 58091, "width": 0 },
-		{ "key": "l", "filename": "l_da_m", "unicode": 58092, "width": 0 },
-		{ "key": "o", "filename": "o_zhai_m", "unicode": 58093, "width": 0 },
-		{ "key": "c", "filename": "c_qiaqi_m", "unicode": 58094, "width": 0 },
-		{ "key": "U", "filename": "U_li_m", "unicode": 58095, "width": 0 },
+		{ "key": "n", "filename": "n_bo_m", "unicode": 58090, "width": 0 },
+		{ "key": "h", "filename": "h_tuo_m", "unicode": 58091, "width": 0 },
+		{ "key": "u", "filename": "u_tiao_m", "unicode": 58092, "width": 0 },
+		{ "key": "k", "filename": "k_gou_m", "unicode": 58093, "width": 0 },
+		{ "key": "i", "filename": "i_ti_m", "unicode": 58094, "width": 0 },
+		{ "key": "l", "filename": "l_da_m", "unicode": 58095, "width": 0 },
+		{ "key": "o", "filename": "o_zhai_m", "unicode": 58096, "width": 0 },
+		{ "key": "c", "filename": "c_qiaqi_m", "unicode": 58097, "width": 0 },
+		{ "key": "U", "filename": "U_li_m", "unicode": 58098, "width": 0 },
 	]},
 	"strHalf": { "x": 245, "y": 540, "w": 520, "h": 230 , "components": [
-		{ "key": "1", "filename": "1_yi_m", "unicode": 58096, "width": 0 },
-		{ "key": "2", "filename": "2_er_m", "unicode": 58097, "width": 0 },
-		{ "key": "3", "filename": "3_san_m", "unicode": 58098, "width": 0 },
-		{ "key": "4", "filename": "4_si_m", "unicode": 58099, "width": 0 },
-		{ "key": "5", "filename": "5_wu_m", "unicode": 58100, "width": 0 },
-		{ "key": "6", "filename": "6_liu_m", "unicode": 58101, "width": 0 },
-		{ "key": "7", "filename": "7_qi_m", "unicode": 58102, "width": 0 }
+		{ "key": "1", "filename": "1_yi_m", "unicode": 58099, "width": 0 },
+		{ "key": "2", "filename": "2_er_m", "unicode": 58100, "width": 0 },
+		{ "key": "3", "filename": "3_san_m", "unicode": 58101, "width": 0 },
+		{ "key": "4", "filename": "4_si_m", "unicode": 58102, "width": 0 },
+		{ "key": "5", "filename": "5_wu_m", "unicode": 58103, "width": 0 },
+		{ "key": "6", "filename": "6_liu_m", "unicode": 58104, "width": 0 },
+		{ "key": "7", "filename": "7_qi_m", "unicode": 58105, "width": 0 }
 	]},
 	"strHalfTop": { "x": 300, "y": 480, "w": 385, "h": 200 , "components": [
-		{ "key": "1", "filename": "1_yi_m", "unicode": 58103, "width": 0 },
-		{ "key": "2", "filename": "2_er_m", "unicode": 58104, "width": 0 },
-		{ "key": "3", "filename": "3_san_m", "unicode": 58105, "width": 0 },
-		{ "key": "4", "filename": "4_si_m", "unicode": 58106, "width": 0 },
-		{ "key": "5", "filename": "5_wu_m", "unicode": 58107, "width": 0 },
-		{ "key": "6", "filename": "6_liu_m", "unicode": 58108, "width": 0 },
-		{ "key": "7", "filename": "7_qi_m", "unicode": 58109, "width": 0 }
+		{ "key": "1", "filename": "1_yi_m", "unicode": 58106, "width": 0 },
+		{ "key": "2", "filename": "2_er_m", "unicode": 58107, "width": 0 },
+		{ "key": "3", "filename": "3_san_m", "unicode": 58108, "width": 0 },
+		{ "key": "4", "filename": "4_si_m", "unicode": 58109, "width": 0 },
+		{ "key": "5", "filename": "5_wu_m", "unicode": 58110, "width": 0 },
+		{ "key": "6", "filename": "6_liu_m", "unicode": 58111, "width": 0 },
+		{ "key": "7", "filename": "7_qi_m", "unicode": 58112, "width": 0 }
 	]},
 	"strHalfBottom": { "x": 300, "y": 700, "w": 385, "h": 200 , "components": [
-		{ "key": "1", "filename": "1_yi_m", "unicode": 58110, "width": 0 },
-		{ "key": "2", "filename": "2_er_m", "unicode": 58111, "width": 0 },
-		{ "key": "3", "filename": "3_san_m", "unicode": 58112, "width": 0 },
-		{ "key": "4", "filename": "4_si_m", "unicode": 58113, "width": 0 },
-		{ "key": "5", "filename": "5_wu_m", "unicode": 58114, "width": 0 },
-		{ "key": "6", "filename": "6_liu_m", "unicode": 58115, "width": 0 },
-		{ "key": "7", "filename": "7_qi_m", "unicode": 58116, "width": 0 }
+		{ "key": "1", "filename": "1_yi_m", "unicode": 58113, "width": 0 },
+		{ "key": "2", "filename": "2_er_m", "unicode": 58114, "width": 0 },
+		{ "key": "3", "filename": "3_san_m", "unicode": 58115, "width": 0 },
+		{ "key": "4", "filename": "4_si_m", "unicode": 58116, "width": 0 },
+		{ "key": "5", "filename": "5_wu_m", "unicode": 58117, "width": 0 },
+		{ "key": "6", "filename": "6_liu_m", "unicode": 58118, "width": 0 },
+		{ "key": "7", "filename": "7_qi_m", "unicode": 58119, "width": 0 }
 	]},
 	"thirdMidFull": { "x": 300, "y": 420, "w": 400, "h": 240, "components": [
-		{ "key": "j", "filename": "j_mo_s", "unicode": 58117, "width": 0 },
-		{ "key": "V", "filename": "V_yan_s", "unicode": 58118, "width": 0 },
-		{ "key": "0", "filename": "0_san_m", "unicode": 58119, "width": 0 }
+		{ "key": "j", "filename": "j_mo_s", "unicode": 58120, "width": 0 },
+		{ "key": "V", "filename": "V_yan_s", "unicode": 58121, "width": 0 },
+		{ "key": "0", "filename": "0_san_m", "unicode": 58122, "width": 0 }
 	]},
 	"thirdMidLeft": { "x": 260, "y": 420, "w": 230, "h": 230, "components": [
-		{ "key": "v", "filename": "v_da_s", "unicode": 58120, "width": 0},
-		{ "key": "f", "filename": "f_index_s", "unicode": 58121, "width": 0},
-		{ "key": "d", "filename": "d_zhong_s", "unicode": 58122, "width": 0},
-		{ "key": "s", "filename": "s_ming_s", "unicode": 58123, "width": 0},
-		{ "key": "x", "filename": "x_gui_s", "unicode": 58124, "width": 0}
+		{ "key": "v", "filename": "v_da_s", "unicode": 58123, "width": 0},
+		{ "key": "f", "filename": "f_index_s", "unicode": 58124, "width": 0},
+		{ "key": "d", "filename": "d_zhong_s", "unicode": 58125, "width": 0},
+		{ "key": "s", "filename": "s_ming_s", "unicode": 58126, "width": 0},
+		{ "key": "x", "filename": "x_gui_s", "unicode": 58127, "width": 0}
 	]},
 	"thirdMidRight": { "x": 500, "y": 420, "w": 230, "h": 230, "components": [
-		{ "key": "1", "filename": "1_yi_s", "unicode": 58125, "width": 0 },
-		{ "key": "2", "filename": "2_er_s", "unicode": 58126, "width": 0 },
-		{ "key": "3", "filename": "3_san_s", "unicode": 58127, "width": 0 },
-		{ "key": "4", "filename": "4_si_s", "unicode": 58128, "width": 0 },
-		{ "key": "5", "filename": "5_wu_s", "unicode": 58129, "width": 0 },
-		{ "key": "6", "filename": "6_liu_s", "unicode": 58130, "width": 0 },
-		{ "key": "7", "filename": "7_qi_s", "unicode": 58131, "width": 0 },
-		{ "key": "8", "filename": "8_ba_s", "unicode": 58132, "width": 0 },
-		{ "key": "9", "filename": "9_jiu_s", "unicode": 58133, "width": 0 },
-		{ "key": "10", "filename": "10_shi_s", "unicode": 58134, "width": 0 },
-		{ "key": "11", "filename": "11_s", "unicode": 58135, "width": 0 },
-		{ "key": "12", "filename": "12_s", "unicode": 58136, "width": 0 },
-		{ "key": "13", "filename": "13_s", "unicode": 58137, "width": 0 },
+		{ "key": "1", "filename": "1_yi_s", "unicode": 58128, "width": 0 },
+		{ "key": "2", "filename": "2_er_s", "unicode": 58129, "width": 0 },
+		{ "key": "3", "filename": "3_san_s", "unicode": 58130, "width": 0 },
+		{ "key": "4", "filename": "4_si_s", "unicode": 58131, "width": 0 },
+		{ "key": "5", "filename": "5_wu_s", "unicode": 58132, "width": 0 },
+		{ "key": "6", "filename": "6_liu_s", "unicode": 58133, "width": 0 },
+		{ "key": "7", "filename": "7_qi_s", "unicode": 58134, "width": 0 },
+		{ "key": "8", "filename": "8_ba_s", "unicode": 58135, "width": 0 },
+		{ "key": "9", "filename": "9_jiu_s", "unicode": 58136, "width": 0 },
+		{ "key": "10", "filename": "10_shi_s", "unicode": 58137, "width": 0 },
+		{ "key": "11", "filename": "11_s", "unicode": 58138, "width": 0 },
+		{ "key": "12", "filename": "12_s", "unicode": 58139, "width": 0 },
+		{ "key": "13", "filename": "13_s", "unicode": 58140, "width": 0 },
 	]},
 	"rhThirdBottom": { "x": 100, "y": 660, "w": 800, "h": 305, "components": [
-		{ "key": "n", "filename": "n_bo_m", "unicode": 58138, "width": 0 },
-		{ "key": "h", "filename": "h_tuo_m", "unicode": 58139, "width": 0 },
-		{ "key": "u", "filename": "u_tiao_m", "unicode": 58140, "width": 0 },
-		{ "key": "k", "filename": "k_gou_m", "unicode": 58141, "width": 0 },
-		{ "key": "i", "filename": "i_ti_m", "unicode": 58142, "width": 0 },
-		{ "key": "l", "filename": "l_da_m", "unicode": 58143, "width": 0 },
-		{ "key": "o", "filename": "o_zhai_m", "unicode": 58144, "width": 0 }
+		{ "key": "n", "filename": "n_bo_m", "unicode": 58141, "width": 0 },
+		{ "key": "h", "filename": "h_tuo_m", "unicode": 58142, "width": 0 },
+		{ "key": "u", "filename": "u_tiao_m", "unicode": 58143, "width": 0 },
+		{ "key": "k", "filename": "k_gou_m", "unicode": 58144, "width": 0 },
+		{ "key": "i", "filename": "i_ti_m", "unicode": 58145, "width": 0 },
+		{ "key": "l", "filename": "l_da_m", "unicode": 58146, "width": 0 },
+		{ "key": "o", "filename": "o_zhai_m", "unicode": 58147, "width": 0 }
 	]},
 	"strThird": { "x": 230, "y": 690, "w": 540, "h": 250, "components": [
-		{ "key": "1", "filename": "1_yi_l", "unicode": 58145, "width": 0 },
-		{ "key": "2", "filename": "2_er_l", "unicode": 58146, "width": 0 },
-		{ "key": "3", "filename": "3_san_l", "unicode": 58147, "width": 0 },
-		{ "key": "4", "filename": "4_si_l", "unicode": 58148, "width": 0 },
-		{ "key": "5", "filename": "5_wu_l", "unicode": 58149, "width": 0 },
-		{ "key": "6", "filename": "6_liu_l", "unicode": 58150, "width": 0 },
-		{ "key": "7", "filename": "7_qi_l", "unicode": 58151, "width": 0 }
+		{ "key": "1", "filename": "1_yi_l", "unicode": 58148, "width": 0 },
+		{ "key": "2", "filename": "2_er_l", "unicode": 58149, "width": 0 },
+		{ "key": "3", "filename": "3_san_l", "unicode": 58150, "width": 0 },
+		{ "key": "4", "filename": "4_si_l", "unicode": 58151, "width": 0 },
+		{ "key": "5", "filename": "5_wu_l", "unicode": 58152, "width": 0 },
+		{ "key": "6", "filename": "6_liu_l", "unicode": 58153, "width": 0 },
+		{ "key": "7", "filename": "7_qi_l", "unicode": 58154, "width": 0 }
 	]},
 	"halfUpper": { "x": 373, "y": 373, "w": 260, "h": 145, "components": [
-		{ "key": "/", "filename": "fwdSlash_shang_s", "unicode": 58152, "width": 0 }
+		{ "key": "/", "filename": "fwdSlash_shang_s", "unicode": 58155, "width": 0 }
 	]},
 	"halfLeft": { "x": 0, "y": 430, "w": 100, "h": 500, "components": [
-		{ "key": "\\", "filename": "bckSlash_xia_m", "unicode": 58153, "width": 0 }
+		{ "key": "\\", "filename": "bckSlash_xia_m", "unicode": 58156, "width": 0 }
 	]},
 	"huiHalfFull": { "x": 100, "y": 100, "w": 800, "h": 305, "components": [
-		{ "key": "0", "filename": "0_san_m", "unicode": 58154, "width": 0 }
+		{ "key": "0", "filename": "0_san_m", "unicode": 58157, "width": 0 }
 	]},
 	"cuo": { "x": 450, "y": -175, "w": 825, "h": 1175, "components": [
-		{ "key": "H", "filename": "H_cuo_m", "unicode": 58155, "width": 667 },
-		{ "key": "Y", "filename": "Y_fancuo_m", "unicode": 58156, "width": 667 },
-		{ "key": "I", "filename": "I_dacuo_m", "unicode": 58157, "width": 667 },
-		{ "key": "O", "filename": "O_dafancuo_m", "unicode": 58158, "width": 667 },
+		{ "key": "H", "filename": "H_cuo_m", "unicode": 58158, "width": 667 },
+		{ "key": "Y", "filename": "Y_fancuo_m", "unicode": 58159, "width": 667 },
+		{ "key": "I", "filename": "I_dacuo_m", "unicode": 58160, "width": 667 },
+		{ "key": "O", "filename": "O_dafancuo_m", "unicode": 58161, "width": 667 },
 	]},
 	"thirdMidRightTop": { "x": 500, "y": 420, "w": 230, "h": 112, "components": [
-		{ "key": "1", "filename": "1_yi_s", "unicode": 58159, "width": 0 },
-		{ "key": "2", "filename": "2_er_s", "unicode": 58160, "width": 0 },
-		{ "key": "3", "filename": "3_san_s", "unicode": 58161, "width": 0 },
-		{ "key": "4", "filename": "4_si_s", "unicode": 58162, "width": 0 },
-		{ "key": "5", "filename": "5_wu_s", "unicode": 58163, "width": 0 },
-		{ "key": "6", "filename": "6_liu_s", "unicode": 58164, "width": 0 },
-		{ "key": "7", "filename": "7_qi_s", "unicode": 58165, "width": 0 },
-		{ "key": "8", "filename": "8_ba_s", "unicode": 58166, "width": 0 },
-		{ "key": "9", "filename": "9_jiu_s", "unicode": 58167, "width": 0 },
-		{ "key": "10", "filename": "10_shi_s", "unicode": 58168, "width": 0 },
-		{ "key": "11", "filename": "11_s", "unicode": 58169, "width": 0 },
-		{ "key": "12", "filename": "12_s", "unicode": 58170, "width": 0 },
-		{ "key": "13", "filename": "13_s", "unicode": 58171, "width": 0 },
+		{ "key": "1", "filename": "1_yi_s", "unicode": 58162, "width": 0 },
+		{ "key": "2", "filename": "2_er_s", "unicode": 58163, "width": 0 },
+		{ "key": "3", "filename": "3_san_s", "unicode": 58164, "width": 0 },
+		{ "key": "4", "filename": "4_si_s", "unicode": 58165, "width": 0 },
+		{ "key": "5", "filename": "5_wu_s", "unicode": 58166, "width": 0 },
+		{ "key": "6", "filename": "6_liu_s", "unicode": 58167, "width": 0 },
+		{ "key": "7", "filename": "7_qi_s", "unicode": 58168, "width": 0 },
+		{ "key": "8", "filename": "8_ba_s", "unicode": 58169, "width": 0 },
+		{ "key": "9", "filename": "9_jiu_s", "unicode": 58170, "width": 0 },
+		{ "key": "10", "filename": "10_shi_s", "unicode": 58171, "width": 0 },
+		{ "key": "11", "filename": "11_s", "unicode": 58172, "width": 0 },
+		{ "key": "12", "filename": "12_s", "unicode": 58173, "width": 0 },
+		{ "key": "13", "filename": "13_s", "unicode": 58174, "width": 0 },
 	]},
 	"thirdMidRightBottom": { "x": 500, "y": 538, "w": 230, "h": 112, "components": [
-		{ "key": "1", "filename": "1_yi_s", "unicode": 58172, "width": 0 },
-		{ "key": "2", "filename": "2_er_s", "unicode": 58173, "width": 0 },
-		{ "key": "3", "filename": "3_san_s", "unicode": 58174, "width": 0 },
-		{ "key": "4", "filename": "4_si_s", "unicode": 58175, "width": 0 },
-		{ "key": "5", "filename": "5_wu_s", "unicode": 58176, "width": 0 },
-		{ "key": "6", "filename": "6_liu_s", "unicode": 58177, "width": 0 },
-		{ "key": "7", "filename": "7_qi_s", "unicode": 58178, "width": 0 },
-		{ "key": "8", "filename": "8_ba_s", "unicode": 58179, "width": 0 },
-		{ "key": "9", "filename": "9_jiu_s", "unicode": 58180, "width": 0 },
+		{ "key": "1", "filename": "1_yi_s", "unicode": 58175, "width": 0 },
+		{ "key": "2", "filename": "2_er_s", "unicode": 58176, "width": 0 },
+		{ "key": "3", "filename": "3_san_s", "unicode": 58177, "width": 0 },
+		{ "key": "4", "filename": "4_si_s", "unicode": 58178, "width": 0 },
+		{ "key": "5", "filename": "5_wu_s", "unicode": 58179, "width": 0 },
+		{ "key": "6", "filename": "6_liu_s", "unicode": 58180, "width": 0 },
+		{ "key": "7", "filename": "7_qi_s", "unicode": 58181, "width": 0 },
+		{ "key": "8", "filename": "8_ba_s", "unicode": 58182, "width": 0 },
+		{ "key": "9", "filename": "9_jiu_s", "unicode": 58183, "width": 0 },
 	]},
 }
 const charRules = {
-	doFor: /.*/,
+	for: /.*/,
 	do: [
-		{ regex: /[0-9]/, area: 'strFull'},
-		{ regex: /(n|k|l|h|u|i|o|c|U)/, area: 'rhFull'},
-		{ regex: /\(\d.*\)/, 
-			doFor: /.*/,
+		{ if: /[0-9]/, area: 'strFull'},
+		{ if: /(n|k|l|h|u|i|o|c|U)/, area: 'rhFull'},
+		{ if: /\(\d.*\)/, 
+			for: /.*/,
 			do: [
-				{ regex: /[0-9]/, area: 'strHalf'},
-				{ regex: /(n|k|l|h|u|i|o|c|U)/, area: 'rhHalf'},
+				{ if: /[0-9]/, area: 'strHalf'},
+				{ if: /(n|k|l|h|u|i|o|c|U)/, area: 'rhHalf'},
 			]
 		},
-		{ regex: /(s|d|v|f|x)/, area: 'lhHalf',
-			doFor: /.*/,
+		{ if: /(s|d|v|f|x)/, area: 'lhHalf',
+			for: /.*/,
 			do: [
-				{ regex: /[0-9]/, area: 'strHalf'},
-				{ regex: /(n|k|l|h|u|i|o|c|U)/, area: 'rhHalf'},
+				{ if: /[0-9]/, area: 'strHalf'},
+				{ if: /(n|k|l|h|u|i|o|c|U)/, area: 'rhHalf'},
 			]
 		},
-		{ regex: /\(\d+\)/,
-			doFor: /\(\d+\)/,
+		{ if: /\(\d+\)/,
+			for: /\(\d+\)/,
 			do: [
-				{ regex: /\(\d.*\)/, remove: ['(', ')'], area: 'huiHalf' } 
+				{ if: /\(\d.*\)/, remove: ['(', ')'], area: 'huiHalf' } 
 			]
 		},
-		{ regex: /\(.*\..\)/, 
-			doFor: /\(.*\..\)/,
+		{ if: /\(.*\..\)/, 
+			for: /\(.*\..\)/,
 			do: [
-				{ regex: /\(\d.*\./, remove: ['(', '.'], area: 'huiHalfTop' },
-				{ regex: /\.\d.*\)/, remove: [')', '.'], area: 'huiHalfBottom',  },
+				{ if: /\(\d.*\./, remove: ['(', '.'], area: 'huiHalfTop' },
+				{ if: /\.\d.*\)/, remove: [')', '.'], area: 'huiHalfBottom',  },
 			]
 		},
-		{ regex: /[0-9],[0-9]/, 
-			doFor: /[0-9],[0-9]/,
+		{ if: /[0-9],[0-9]/, 
+			for: /[0-9],[0-9]/,
 			do: [
-				{ regex: /\d.*\,/, remove: [','], area: 'strHalfTop' },
-				{ regex: /\,\d.*/, remove: [','], area: 'strHalfBottom' },
+				{ if: /\d.*\,/, remove: [','], area: 'strHalfTop' },
+				{ if: /\,\d.*/, remove: [','], area: 'strHalfBottom' },
 			]
 		},
-		{ regex: /j|V/, area: 'thirdMidFull', 
-			doFor: /.*/,
+		{ if: /j|V/, area: 'thirdMidFull', 
+			for: /.*/,
 			do: [
-				{ regex: /[0-9]/, area: 'strThird'},
-				{ regex: /(n|k|l|h|u|i|o|c)/, area: 'rhThirdBottom'}
+				{ if: /[0-9]/, area: 'strThird'},
+				{ if: /(n|k|l|h|u|i|o|c)/, area: 'rhThirdBottom'}
 			]
 		},
-		{ regex: /\(0\)/, 
-			doFor: /\(0\)/,
+		{ if: /\(0\)/, 
+			for: /\(0\)/,
 			do: [
-				{ regex: /0/, area: 'huiHalfFull'}
+				{ if: /0/, area: 'huiHalfFull'}
 			]
 		},
-		{ regex: /\//, area: 'halfUpper' },
-		{ regex: /\\/, area: 'halfLeft'  },
-		{ regex: /H|Y|I|O/, area: 'cuo', 
-			doFor: /[^H|Y|I|O]*/i,
+		{ if: /\//, area: 'halfUpper' },
+		{ if: /\\/, area: 'halfLeft'  },
+		{ if: /H|Y|I|O/, area: 'cuo', 
+			for: /[^H|Y|I|O]*/i,
 			do: [
-				{ regex: /[0-9]/, area: 'strHalf' },
-				{ regex: /(s|d|v|f|x)|(\([0-9].*\))/,
-					doFor: /.*/,
+				{ if: /[0-9]/, area: 'strHalf' },
+				{ if: /(s|d|v|f|x)|(\([0-9].*\))/,
+					for: /.*/,
 					do: [
-						{ regex: /[0-9]/, area: 'strThird'},
-						{ regex: /s|d|v|f|x/, area: 'thirdMidLeft' },
-						{ regex: /\(\d+\)/,
-							doFor: /\(\d+\)/,
+						{ if: /[0-9]/, area: 'strThird'},
+						{ if: /s|d|v|f|x/, area: 'thirdMidLeft' },
+						{ if: /\(\d+\)/,
+							for: /\(\d+\)/,
 							do: [
-								{ regex: /\(\d.*\)/, remove: ['(', ')'], area: 'thirdMidRight' }
+								{ if: /\(\d.*\)/, remove: ['(', ')'], area: 'thirdMidRight' }
 							]
 						},
-						{ regex: /\(.*\..\)/, 
-							doFor: /\(.*\..\)/,
+						{ if: /\(.*\..\)/, 
+							for: /\(.*\..\)/,
 							do: [
-								{ regex: /\(\d.*\./, remove: ['(', '.'], area: 'thirdMidRightTop' },
-								{ regex: /\.\d.*\)/, remove: [')', '.'], area: 'thirdMidRightBottom' }
+								{ if: /\(\d.*\./, remove: ['(', '.'], area: 'thirdMidRightTop' },
+								{ if: /\.\d.*\)/, remove: [')', '.'], area: 'thirdMidRightBottom' }
 							]
 						},				
-						{ regex: /\(0\)/, 
-							doFor: /.*/,
+						{ if: /\(0\)/, 
+							for: /.*/,
 							do: [
-								{ regex: /0/, area: 'thirdMidFull'}
+								{ if: /0/, area: 'thirdMidFull'}
 							]
 						},
 					]
 				}
 			]
 		},
-		{ regex: /H|Y|I|O/, area: 'cuo', 
-			doFor: /[H|Y|I|O](.*)/,
+		{ if: /H|Y|I|O/, area: 'cuo', 
+			for: /[H|Y|I|O](.*)/,
 			do: [
-				{ regex: /[0-9]/, area: 'strHalf' },
-				{ regex: /(s|d|v|f|x)|(\([0-9].*\))/,
-					doFor: /.*/,
+				{ if: /[0-9]/, area: 'strHalf' },
+				{ if: /(s|d|v|f|x)|(\([0-9].*\))/,
+					for: /.*/,
 					do: [
-						{ regex: /[0-9]/, area: 'strThird'},
-						{ regex: /s|d|v|f|x/, area: 'thirdMidLeft' },
-						{ regex: /\(\d+\)/,
-							doFor: /\(\d+\)/,
+						{ if: /[0-9]/, area: 'strThird'},
+						{ if: /s|d|v|f|x/, area: 'thirdMidLeft' },
+						{ if: /\(\d+\)/,
+							for: /\(\d+\)/,
 							do: [
-								{ regex: /\(\d.*\)/, remove: ['(', ')'], area: 'thirdMidRight' }
+								{ if: /\(\d.*\)/, remove: ['(', ')'], area: 'thirdMidRight' }
 							]
 						},
-						{ regex: /\(.*\..\)/, 
-							doFor: /\(.*\..\)/,
+						{ if: /\(.*\..\)/, 
+							for: /\(.*\..\)/,
 							do: [
-								{ regex: /\(\d.*\./, remove: ['(', '.'], area: 'thirdMidRightTop' },
-								{ regex: /\.\d.*\)/, remove: [')', '.'], area: 'thirdMidRightBottom' }
+								{ if: /\(\d.*\./, remove: ['(', '.'], area: 'thirdMidRightTop' },
+								{ if: /\.\d.*\)/, remove: [')', '.'], area: 'thirdMidRightBottom' }
 							]
 						},				
-						{ regex: /\(0\)/, 
-							doFor: /.*/,
+						{ if: /\(0\)/, 
+							for: /.*/,
 							do: [
-								{ regex: /0/, area: 'thirdMidFull'}
+								{ if: /0/, area: 'thirdMidFull'}
 							]
 						},
 					]
@@ -356,11 +359,11 @@ DEBUG = false
 
 function getStructure(ogStr, structureMap) {
 	var strMap = {}
-	var str = ogStr.match(structureMap.doFor)[0]
-	var startIdx = ogStr.match(structureMap.doFor).index
+	var str = ogStr.match(structureMap.for)[0]
+	var startIdx = ogStr.match(structureMap.for).index
 	for (var i=0; i<structureMap.do.length; i++) {
-		if (str.match(structureMap.do[i].regex)) {
-			var matchInfo = str.match(structureMap.do[i].regex)
+		if (str.match(structureMap.do[i].if)) {
+			var matchInfo = str.match(structureMap.do[i].if)
 			if (matchInfo.index != undefined) {
 				if (structureMap.do[i].area != undefined) {
 					var matchChar = matchInfo[0]
@@ -375,7 +378,7 @@ function getStructure(ogStr, structureMap) {
 						area: structureMap.do[i].area
 					}
 				}
-				if (structureMap.do[i].doFor != undefined) {
+				if (structureMap.do[i].for != undefined) {
 					subStrMap = getStructure(str, structureMap.do[i])
 					for (var k in subStrMap) {
 						strMap[Number(k) + startIdx] = subStrMap[k]
@@ -385,7 +388,7 @@ function getStructure(ogStr, structureMap) {
 			}
 			else if (false) { // for multimatches (e.g., with /g tag); ignoring for now tho
 				var j=0
-				while (j<100 && (matchPartInfo = structureMap.do[i].regex.exec(str)) != null) {
+				while (j<100 && (matchPartInfo = structureMap.do[i].if.exec(str)) != null) {
 					strMap[matchInfo.index] = {
 						chars: matchInfo[0],
 						length: matchPartInfo[0].length, 
@@ -429,7 +432,7 @@ function paragraphToCharacters(para) {
 			else {
 				translation = stringToCharacter(words[i])
 			}
-			words[i] = translation == '' ? words[i] : translation + ' '
+			words[i] = translation == '' && words[i] != '' ? words[i] : translation + ' '
 		}
 		lines[j] = words.join('')
 	}
