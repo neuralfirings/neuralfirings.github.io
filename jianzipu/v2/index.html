@@ -15,13 +15,13 @@
     <!-- JianZiPu -->
     <script src="dist/jianzipu.min.js"></script>
     <link rel="stylesheet" href="dist/jianzipu.css">
-    
+
     <script>
     	$(document).ready(function() {
     		$(".jianzipu-input").on("keyup", function() {
     			sh = $(this).val()
     			$(".jianzipu-output-string").val(sh)
-    			$('.jianzipu-output-character').val(paragraphToCharacters(sh)) 
+    			$('.jianzipu-output-character').val(jianzipu(sh)) 
     		})
     	})
     </script>
@@ -38,17 +38,21 @@
 			.jzp-font {
 			  font-family: JianZiPu, monospace;
 			}
+			.xl {
+				font-size: 3rem;
+				line-height: 1rem;
+			}
     </style>
   </head>
   <body>
-		<nav class="nav"></nav>  
+		<!-- <nav class="nav"></nav>   -->
 		<div class="container-fluid" id="content">
 			
 			<div class="row">
 				<div class="col">
 					<br />
 					<h1>JianZiPu Font</h1>
-					<p>Code open source on <a href="https://github.com/neuralfirings/JianZiPu">https://github.com/neuralfirings/JianZiPu</a></p>
+					<div style="text-align: center"><img src="explanation.png" width="300px"/></div>
 				</div>
 			</div>
 
@@ -58,14 +62,9 @@
 					s7ju5 s7>k5 s67k6 0k3 k3 v56V5 s9c 5dj3 C03|s65 v7U43 v85banlun7<br /><br />
 					<label>Input Example (Chinese)</label>
 					名七抹挑五 名七急勾五 名六七勾六 散勾三 勾三 大五六掩五 名九掐起 五中抹三 撮散三|名六五 大七历四三 大八五半轮七
-					<!-- 5ujs(7) 5k>s(7) 6ks(6.7) 3k(0) 3k 5Vv(5.6) sc(9) 3j(5)d 3(0)H5s(6) U4,3v(7) banlun7v(8.5) -->
+					<br/>
 					<br/>
 				</div>
-				<!-- <div class="col-md-4 jzp">
-					<label>Output Example (String)</label>
-					[[5ujs(7) 5k>s(7) 6ks(6.7) 3k(0) 3k 5Vv(5.6) sc(9) 3j(5)d 3(0)H5s(6) U4,3v(7) banlun7v(8.5)]]
-					<br/>
-				</div> -->
 				<div class="col-md-6 jzp">
 					<label>Compiled Character (JianZiPu Font)</label>
 					<div style="font-size: 3rem;">
@@ -92,6 +91,277 @@
 				<div class="col-md-6">
 					<label>Compiled Character (JianZiPu Font)</label>
 					<textarea class="jzp-font jianzipu-output-character form-control" rows="3" style="font-size: 3rem; padding-right: 3rem; display: inline-block;"></textarea>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<label>Keyboard Map (Basic Glyphs)</label>
+					<img src="keyboard.png" width="100%"/>
+					<br /><br />
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<label>Basic Left Hand</label>
+					<table class="table table-sm">
+						<thead>
+							<tr>
+									<th>key</th>
+									<th>中文</th>
+									<th>拼音</th>
+							</tr>
+						</thead>
+						<tr>
+								<td>s</td>
+								<td>名</td>
+								<td>míng</td>
+						</tr>
+						<tr>
+								<td>d</td>
+								<td>中</td>
+								<td>zhōng</td>
+						</tr>
+						<tr>
+								<td>f</td>
+								<td>食</td>
+								<td>shí</td>
+						</tr>
+						<tr>
+								<td>v</td>
+								<td>大</td>
+								<td>dà</td>
+						</tr>
+						<tr>
+								<td>x</td>
+								<td>跪</td>
+								<td>guì</td>
+						</tr>
+					</table>
+
+					<label>Other Left Hand Techniques</label>
+					<table class="table table-sm">
+						<thead>
+							<tr>
+									<th>key</th>
+									<th>中文</th>
+									<th>拼音</th>
+							</tr>
+						</thead>
+						<tr>
+								<td>V</td>
+								<td>掩</td>
+								<td>yǎn</td>
+						</tr>
+						<tr>
+								<td>c</td>
+								<td>掐起</td>
+								<td>qiā qǐ</td>
+						</tr>
+					</table>	
+
+					<label>Vibratos and Slides</label>
+					<table class="table table-sm">
+						<thead>
+							<tr>
+									<th>key</th>
+									<th>中文</th>
+									<th>拼音</th>
+							</tr>
+						</thead>
+						<tr>
+								<td>/</td>
+								<td>绰</td>
+								<td>chaō</td>
+						</tr>
+						<tr>
+								<td>&gt;</td>
+								<td>急</td>
+								<td>jí</td>
+						</tr>
+						<tr>
+								<td>\</td>
+								<td>|注</td>
+								<td>zhù</td>
+						</tr>
+					</table>
+				</div>
+				<div class="col-md-6">
+					<label>Basic Right Hand</label>
+					<table class="table table-sm">
+						<thead>
+							<tr>
+									<th>key</th>
+									<th>中文</th>
+									<th>拼音</th>
+							</tr>
+						</thead>
+						<tr>
+								<td>n</td>
+								<td>擘</td>
+								<td>bō</td>
+						</tr>
+						<tr>
+								<td>h</td>
+								<td>托</td>
+								<td>tuō</td>
+						</tr>
+						<tr>
+								<td>j</td>
+								<td>抹</td>
+								<td>mǒ</td>
+						</tr>
+						<tr>
+								<td>u</td>
+								<td>挑</td>
+								<td>tiāo</td>
+						</tr>
+						<tr>
+								<td>k</td>
+								<td>勾</td>
+								<td>gōu</td>
+						</tr>
+						<tr>
+								<td>i</td>
+								<td>剔</td>
+								<td>tī</td>
+						</tr>
+						<tr>
+								<td>l</td>
+								<td>打</td>
+								<td>dǎ</td>
+						</tr>
+						<tr>
+								<td>o</td>
+								<td>摘</td>
+								<td>zhāi</td>
+						</tr>
+						<tr>
+								<td>ju</td>
+								<td>抹挑</td>
+								<td>mǒ tiāo</td>
+						</tr>
+						<tr>
+								<td>ki</td>
+								<td>勾剔</td>
+								<td>gōu tī</td>
+						</tr>
+						<tr>
+								<td>lo</td>
+								<td>打摘</td>
+								<td>dǎ zhāi</td>
+						</tr>
+					</table>
+
+					<label>Multinotes (Chords, Glissandos)</label>
+					<table class="table table-sm">
+						<thead>
+							<tr>
+									<th>key</th>
+									<th>中文</th>
+									<th>拼音</th>
+							</tr>
+						</thead>
+						<tr>
+								<td>C</td>
+								<td>撮</td>
+								<td>cuō</td>
+						</tr>
+						<tr>
+								<td>U</td>
+								<td>历</td>
+								<td>lì</td>
+						</tr>
+						<tr>
+								<td>lun</td>
+								<td>轮</td>
+								<td>lún</td>
+						</tr>
+						<tr>
+								<td>banlun</td>
+								<td>半轮</td>
+								<td>bàn lún</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<label>Standalone Characters</label>
+					<table class="table table-sm">
+						<thead>
+							<tr>
+									<th>key</th>
+									<th>中文</th>
+									<th>拼音</th>
+									<th>output</th>
+							</tr>
+						</thead>
+						<tr>
+								<td>lun</td>
+								<td>轮</td>
+								<td>bàn lún</td>
+								<td class="jzp xl">[[[lun]]]</td>
+						</tr>
+						<tr>
+								<td>tui</td>
+								<td>退</td>
+								<td>tuì</td>
+								<td class="jzp xl">[[[tui]]]</td>
+						</tr>
+						<tr>
+								<td>jin</td>
+								<td>进</td>
+								<td>jìn</td>
+								<td class="jzp xl">[[[jin]]]</td>
+						</tr>
+						<tr>
+								<td>fanqi</td>
+								<td>泛起</td>
+								<td>fàn qǐ</td>
+								<td class="jzp xl">[[[fanqi]]]</td>
+						</tr>
+						<tr>
+								<td>fanzhi</td>
+								<td>泛止</td>
+								<td>fàn zhǐ</td>
+								<td class="jzp xl">[[[fanzhi ]]]</td>
+						</tr>
+						<tr>
+								<td>fenkai</td>
+								<td>分开</td>
+								<td>fēnkāi</td>
+								<td class="jzp xl">[[[fenkai]]]</td>
+						</tr>
+						<tr>
+								<td>yin</td>
+								<td>吟</td>
+								<td>yín</td>
+								<td class="jzp xl">[[[yin]]]</td>
+						</tr>
+						<tr>
+								<td>nao</td>
+								<td>猱</td>
+								<td>náo</td>
+								<td class="jzp xl">[[[nao]]]</td>
+						</tr>
+						<tr>
+								<td>xiaoyin</td>
+								<td>小吟</td>
+								<td>xiǎo yín</td>
+								<td class="jzp xl">[[[xiaoyin]]]</td>
+						</tr>
+				</table>
+				<label>To be implemented</label>
+				<p>
+					<em>Components</em>: 反撮, 大撮, 大反撮, 三弹, 双弹, 泼刺, 泼, 刺, 滚沸, 滚, 沸, 到<br />
+					<em>Standalone Characters</em>: 復, 撞, 长吟, 细吟, 定吟, 大息, 少息, 泛, 止, 起, 带起, 对起, 爪起, 撇起, 打圆, 散, 如, 外, 应合
+				</p>
+				<hr />
+				<p><a href="https://guqin.nyl.io/contact.html">Contact me</a> if you want more characters or glyphs added to the font, or if you want to collaborate. </p>
+				<p>Code open source on <a href="https://github.com/neuralfirings/JianZiPu">https://github.com/neuralfirings/JianZiPu</a> (v2 is not yet pushed).</p>
 				</div>
 			</div>
 			<br />
