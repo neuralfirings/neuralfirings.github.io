@@ -20,24 +20,16 @@
     	$(document).ready(function() {
     		$(".jianzipu-input").on("keyup", function() {
     			sh = $(this).val()
-    			$(".jianzipu-output-string").val(sh)
-    			$('.jianzipu-output-character').val(jianzipu(sh)) 
+    			$('.jianzipu-output-character').val(paragraphToCharacters(sh)) 
     		})
     	})
-    </script>
+    </script>p
 
     <style>
     	label {
     		font-weight: bold;
     		display: block;
     	}
-    	@font-face {
-			  font-family: JianZiPu;
-			  src: url("JianZiPu.otf") format("opentype");
-			}
-			.jzp-font {
-			  font-family: JianZiPu, monospace;
-			}
 			.xl {
 				font-size: 3rem;
 				line-height: 1rem;
@@ -58,17 +50,17 @@
 
 			<div class="row" style="margin-right: 1.5rem">
 				<div class="col-md-6">
-					<label>Input Example (String)</label>
-					s7ju5 s7>k5 s67k6 0k3 k3 v56V5 s9c 5dj3 C03|s65 v7U43 v85banlun7<br /><br />
+					<label>Input Example (Alphabet)</label>
+					s7ju5 s7>k5 0k3 k3 v56V5 s9c C03|s65 v7U43 v85banlun7 :shang,5,1 #jin<br /><br />
 					<label>Input Example (Chinese)</label>
-					名七抹挑五 名七急勾五 名六七勾六 散勾三 勾三 大五六掩五 名九掐起 五中抹三 撮散三|名六五 大七历四三 大八五半轮七
+					名七抹挑五 名七急勾五 散勾三 勾三 大五六掩五 名九掐起 撮散三|名六五 大七历四三 大八五半轮七  ：上五一 #进
 					<br/>
 					<br/>
 				</div>
 				<div class="col-md-6 jzp">
 					<label>Compiled Character (JianZiPu Font)</label>
 					<div style="font-size: 3rem;">
-					[[[s7ju5 s7>k5 s67k6 0k3 k3 v56V5 s9c 5dj3 C0,3|s6,5 v7U43 v85banlun7]]]
+					[[[s7ju5 s7>k5 0k3 k3 v56V5 s9c C03|s65 v7U43 v85banlun7 :shang,5,1 #jin]]] 
 					</div>
 				</div>
 			</div>
@@ -290,6 +282,7 @@
 			<div class="row">
 				<div class="col">
 					<label>Standalone Characters</label>
+					<p>Preface with <code>#</code></p>
 					<table class="table table-sm">
 						<thead>
 							<tr>
@@ -300,58 +293,96 @@
 							</tr>
 						</thead>
 						<tr>
-								<td>lun</td>
+								<td>#lun, #轮</td>
 								<td>轮</td>
-								<td>bàn lún</td>
-								<td class="jzp xl">[[[lun]]]</td>
+								<td>lún</td>
+								<td class="jzp xl">[[[#轮]]]</td>
 						</tr>
 						<tr>
-								<td>tui</td>
+								<td>#tui, #退</td>
 								<td>退</td>
 								<td>tuì</td>
-								<td class="jzp xl">[[[tui]]]</td>
+								<td class="jzp xl">[[[#退]]]</td>
 						</tr>
 						<tr>
-								<td>jin</td>
+								<td>#jin, #进</td>
 								<td>进</td>
 								<td>jìn</td>
-								<td class="jzp xl">[[[jin]]]</td>
+								<td class="jzp xl">[[[#进]]]</td>
 						</tr>
 						<tr>
-								<td>fanqi</td>
+								<td>#fanqi, #泛起</td>
 								<td>泛起</td>
 								<td>fàn qǐ</td>
-								<td class="jzp xl">[[[fanqi]]]</td>
+								<td class="jzp xl">[[[#fanqi]]]</td>
 						</tr>
 						<tr>
-								<td>fanzhi</td>
+								<td>#fanzhi, #泛止</td>
 								<td>泛止</td>
 								<td>fàn zhǐ</td>
-								<td class="jzp xl">[[[fanzhi ]]]</td>
+								<td class="jzp xl">[[[#fanzhi]]]</td>
 						</tr>
 						<tr>
-								<td>fenkai</td>
+								<td>#fenkai, #分开</td>
 								<td>分开</td>
 								<td>fēnkāi</td>
-								<td class="jzp xl">[[[fenkai]]]</td>
+								<td class="jzp xl">[[[#fenkai]]]</td>
 						</tr>
 						<tr>
-								<td>yin</td>
+								<td>#yin, #吟</td>
 								<td>吟</td>
 								<td>yín</td>
-								<td class="jzp xl">[[[yin]]]</td>
+								<td class="jzp xl">[[[#yin]]]</td>
 						</tr>
 						<tr>
-								<td>nao</td>
+								<td>#nao, #猱</td>
 								<td>猱</td>
 								<td>náo</td>
-								<td class="jzp xl">[[[nao]]]</td>
+								<td class="jzp xl">[[[#nao]]]</td>
 						</tr>
 						<tr>
-								<td>xiaoyin</td>
+								<td>#xiaoyin, #小吟</td>
 								<td>小吟</td>
 								<td>xiǎo yín</td>
-								<td class="jzp xl">[[[xiaoyin]]]</td>
+								<td class="jzp xl">[[[#xiaoyin]]]</td>
+						</tr>
+						<tr>
+								<td>#fu, #復</td>
+								<td>復</td>
+								<td>fù</td>
+								<td class="jzp xl">[[[#fu]]]</td>
+						</tr>
+						<tr>
+								<td>#zhuang, #撞</td>
+								<td>撞</td>
+								<td>zhuàng</td>
+								<td class="jzp xl">[[[#zhuang]]]</td>
+						</tr>
+				</table>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<label>Vertical Characters</label>
+					<p>Preface with <code>:</code> and split characters with <code>,</code> or each character/letter will be split in its own line. Characters are limited to the following: 1-10 (一到十), shang (上), xia (下).</p>
+					<table class="table table-sm"  style="line-height: 4rem">
+						<thead>
+							<tr>
+								<th>key</th>
+								<th>output</th>
+							</tr>
+						</thead>
+						<tr>
+							<td>:shang,10 :xia,5,6</td>
+							<td class="jzp xl" style="vertical-align: middle;">[[[:shang,10  :xia,5,6]]]</td>
+						</tr>
+						<tr>
+							<td>：下十一</td>
+							<td class="jzp xl" style="vertical-align: middle;">[[[：上十一]]]</td>
+						</tr>
+						<tr>
+							<td>:下65</td>
+							<td class="jzp xl" style="vertical-align: middle;">[[[:下65]]]</td>
 						</tr>
 				</table>
 				<label>To be implemented</label>
